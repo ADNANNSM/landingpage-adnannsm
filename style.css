@@ -1,0 +1,187 @@
+/* Write some CSS below */
+
+body {
+  background-color: rgba(rgb(235, 195, 195), rgb(90, 132, 153), rgb(152, 51, 161), alpha) (126, 105, 105);
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 18px;
+  font-family: 'Overpass';
+}
+
+h1, h2, h3 {
+  font-family: 'Chivo';
+}
+
+h1 {
+  color: white;
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 28px;
+  text-align: 46px;
+}
+
+h3 {
+font-size: 28px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url(images/video\ gif.gif);
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
+
+.blue-button {
+background-color:blue;
+color: #000;
+padding: 10px 20px;
+border: none;
+border-radius: 4px; 
+cursor:pointer;
+}
+  
+
+
+.banner p{
+  font-weight: 400;
+  font-size: 24px;
+  background-color: #6c2361;
+  color: #c07c7c;
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+.btn-blue {
+  background-color: #8c177c;
+   color: rgb(254, 255, 255);
+   border-radius: 4px;
+   padding: 20px 50px;
+   font-size: 20px;
+   font-weight: 700;
+   text-decoration-color: #ffffff;
+   transition-duration: 0,35;
+  }
+
+.btn:hover { 
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+
+
+.classe-container {
+  width: 900px;
+  margin: 20px auto;
+  height: 2px;
+  text-overflow: clip;
+  color: rgba(rgb(199, 124, 124), rgb(17, 149, 127), rgb(101, 20, 108), alpha);
+}
+
+.card-white:hover {
+  background-color: rgb(205, 167, 167);
+  padding: 10px;
+  box-shadow: 0 10px rgba (0,0,0,0,1);
+  margin: 8px;
+  border-radius: 5px;
+}
+
+
+  .btn-blue:hover{
+color: #000000;
+  }
+
+  .btn-blue{
+    transition: 0.35;
+  }
+
+  .btn-blue:hover{
+  transform: scale(1.1);
+  }
+    
+
+  
+ .btn.btn:hover{
+  transform:scale(1.1);
+ }
+
+
+.card-white img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 4px;
+  }
+
+
+.card-white img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-width: 0cap;
+}
+
+
+
+.footer {
+  background-color: #000000;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer p {
+  font-size: 20px;
+  height: min-content;
+  margin-inline: 10px 20px ;
+}
+
+.cards-inline {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-gap: 50px;
+  display: flex;
+  justify-content: center; /* centre horizontalement */
+  align-items: center; /* centre verticalement */
+  
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: rgb(201, 103, 103);
+  letter-spacing: 30px;
+}
+
+#section2{
+  text-align: center;
+  padding: 80px 0;
+  border-radius: 10px;
+}
+
+.card-white{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer{
+  text-align: center;
+}
